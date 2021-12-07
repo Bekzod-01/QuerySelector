@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.collection{
+    width: 200px; 
+    height: auto;
+}
+
+.wrap{
+    width: 200px;
+    height: auto;
+    background-color: #f7f7f7;
+    position: absolute;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.item{
+    list-style-type: none;
+    padding: 10px 20px;
+    border-bottom: 1px solid #6b6b6b
+}
+
+#btn{
+    position: absolute;
+    left: 230px;
+    top: 10px;
+    transition: all 0s ease;
+    z-index: 10;
+}
+
+#btn i{
+    font-size: 25px;
+}
+
+
+.active{
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.try{
+    position: absolute;
+    left: -200px;
+    transition: all 0.3s ease;
+}
+
+
